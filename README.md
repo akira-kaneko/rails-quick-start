@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation setting
 
-Things you may want to cover:
+### clone project.
+`git clone https://github.com/akira-kaneko/rails-quick-start.git && cd rails-quick-start`
 
-* Ruby version
+### boot the app.
+`docker-compose up -d`
 
-* System dependencies
+### create databases.
+`docker-compose run web rake db:create`
 
-* Configuration
+### web browser to see.
+http://localhost:3000/
 
-* Database creation
+## Appendix
 
-* Database initialization
+## start a Bash session.
+`docker-compose exec web bash`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## stop and remove containers.
+`docker-compose down`
