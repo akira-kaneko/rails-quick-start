@@ -1,5 +1,10 @@
 # README
 
+## Installed version
+- ruby 2.6.3
+- rails 5.2.3
+- mysql 5.7
+
 ## Installation setting
 
 ### clone project.
